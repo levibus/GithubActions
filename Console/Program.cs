@@ -81,7 +81,7 @@ namespace GithubActionsLab
             return double.Parse(x) / double.Parse(y);
         }
 
-        public static double Power(string x, string y)
+        public static double Power(string x, string y) // did it wrong and need to modify file
         {
             return Math.Pow(double.Parse(x), double.Parse(y));
         }
